@@ -3,6 +3,8 @@ import sudokuBoard
 newInstance = sudokuBoard
 divider = 0
 vertical = 0
+
+# prints the populated sudoku board in a proper sudoku board for easier visualization.
 for i in range(newInstance.getLength()):
     print(" || ", end="")
     for j in range(newInstance.getLength()):
